@@ -21,7 +21,7 @@ app = Flask(__name__)
 def creatJIRA():
     url = "https://chimeprince92.atlassian.net/rest/api/3/issue"
 
-    auth = HTTPBasicAuth("chimeprince92@gmail.com", "ATATT3xFfGF0WRElfIQHIwTGmqVC-WR72ZPVH3WJY__VrGM6ANq1SYopSZlxpHWd4AMJD97xsFXoEamsmDP4Hq8jGj6iT9alaUmhg4O0_mmBPuMgP_K1iWZeNDCMgtPSQ_xX20hEegYFY6-rfNdslLtQOO_Z86G_-ib4KmrcTG1B3-d7PVZYkEg=1616DFD6")
+    auth = HTTPBasicAuth("chimeprince92@gmail.com", "api_token")
 
     headers = {
     "Accept": "application/json",
